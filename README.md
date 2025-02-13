@@ -46,10 +46,9 @@ as i added them to the Remote Desktop Users group via Active Directory Users and
 <p>
 
 <p><img width="1680" alt="Screen Shot 2025-02-12 at 7 36 30 AM" src="https://github.com/user-attachments/assets/e5701108-ab00-45da-9116-0e328f86f2ee" />
-
- 
+ Assigning users to security groups and distribution lists for permission control. 
 <img width="1680" alt="Screen Shot 2025-02-12 at 9 09 23 AM" src="https://github.com/user-attachments/assets/62a30b78-6138-446f-bdc6-a5de62fe0a90" />
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
 </p>
 <br />
