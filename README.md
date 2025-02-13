@@ -28,13 +28,10 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <h2>Deployment and Configuration Steps</h2>
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
+
 <p><img width="1680" alt="Screen Shot 2025-02-10 at 8 33 42 PM" src="https://github.com/user-attachments/assets/78ab46bf-7a12-402f-9a44-9774f82071f1" />
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
+with in azure i created  aomain Controller (DC) a server in a Windows Active Directory (AD) environment that manages user authentication, security policies, and access to network resources. It verifies login credentials, enforces security settings, and controls permissions for users and devices within a domain. </p>
 <br />
 
 <p>
