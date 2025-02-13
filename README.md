@@ -40,14 +40,14 @@ with in azure i created  aomain Controller (DC) a server in a Windows Active Dir
 </p><img width="1680" alt="Screen Shot 2025-02-12 at 7 40 29 AM" src="https://github.com/user-attachments/assets/1052e7a2-c1b4-4397-8b46-4fd5868e4892" />
 
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
+as i added them to the Remote Desktop Users group via Active Directory Users and Computers (ADUC) or the Local Users and Groups tools i then procced to  update Group Policy (GPO) to allow RDP connections by enabling "Allow log on through Remote Desktop Services" in gpedit.msc under Security Settings. Ensure the firewall allows RDP (port 3389) and check that Network Level Authentication (NLA) is configured. For security, limit access to administrators and necessary users only.</p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
+
 <p><img width="1680" alt="Screen Shot 2025-02-12 at 7 36 30 AM" src="https://github.com/user-attachments/assets/e5701108-ab00-45da-9116-0e328f86f2ee" />
+
+ 
 <img width="1680" alt="Screen Shot 2025-02-12 at 9 09 23 AM" src="https://github.com/user-attachments/assets/62a30b78-6138-446f-bdc6-a5de62fe0a90" />
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
