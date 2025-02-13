@@ -21,10 +21,11 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <h2>High-Level Deployment and Configuration Steps</h2>
 
-- with in microsoft azure virtual machines i 
-- Step 2
-- Step 3
-- Step 4
+- Azure Virtual Machines support Remote Desktop Protocol (RDP), allowing users to securely access and manage VMs from anywhere.
+
+-Active Directory Domain Services (AD DS): Azure AD DS enables centralized authentication, user management, and policy enforcement for cloud and hybrid environments.
+
+PowerShell: Azure PowerShell provides automation capabilities for deploying, configuring, and managing virtual machines and other cloud resources efficiently.- Step 
 
 <h2>Deployment and Configuration Steps</h2>
 
@@ -47,8 +48,8 @@ as i added them to the Remote Desktop Users group via Active Directory Users and
 
 <p><img width="1680" alt="Screen Shot 2025-02-12 at 7 36 30 AM" src="https://github.com/user-attachments/assets/e5701108-ab00-45da-9116-0e328f86f2ee" />
  Assigning users to security groups and distribution lists for permission control. 
-<img width="1680" alt="Screen Shot 2025-02-12 at 9 09 23 AM" src="https://github.com/user-attachments/assets/62a30b78-6138-446f-bdc6-a5de62fe0a90" />
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+
+
 </p>
 <br />
