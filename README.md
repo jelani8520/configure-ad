@@ -58,14 +58,12 @@ Hierarchy & Organization: Uses domains, organizational units (OUs), forests, and
 <p><img width="1680" alt="Screen Shot 2025-02-17 at 2 47 23 PM" src="https://github.com/user-attachments/assets/2d17f0c4-959a-4cd7-83f6-88cf21a34343" />
 add users to the Remote Desktop users group and configure rep permissions via group policy, enable Remote Desktop on the domain joined computers, open rdp port in windows defender firewall, test Remote Desktop connection 
  <img width="1680" alt="Screen Shot 2025-02-17 at 3 16 28 PM" src="https://github.com/user-attachments/assets/81391d40-e43c-43c2-9798-f6fd978140a6" />
+To configure password lockout rules in Group Policy Management (GPO) for a Windows Active Directory domain, open Group Policy Management (gpmc.msc) and navigate to Default Domain Policy or create a new GPO. In the Group Policy Editor, go to Computer Configuration > Policies > Windows Settings > Security Settings > Account Policies > Account Lockout Policy and configure settings such as Account lockout threshold (failed attempts before lockout), Account lockout duration (how long the account stays locked), and Reset account lockout counter (time after which failed attempts reset). A recommended setup is 5 failed attempts, a 15-30 minute lockout duration, and a 15-minute reset period to balance security and usability. Apply changes using gpupdate /force and verify with gpresult /r. To monitor lockout events, check Event Viewer (eventvwr.msc) under Windows Logs > Security, specifically event ID 4740. Proper configuration helps prevent brute-force attacks while minimizing user inconvenience. 
 <img width="1680" alt="Screen Shot 2025-02-17 at 3 46 14 PM" src="https://github.com/user-attachments/assets/e0b3ff2f-bba0-4c3c-8df4-4be12a441aa9" />
-
+after configuring rules i was able to make password lockout setting and log back in to a users account
 <p><img width<img width="1680" alt="Screen Shot 2025-02-17 at 4 03 36 PM" src="https://github.com/user-attachments/assets/b12bb496-f24f-4b25-bab7-fd8d4dd8adea" />
-
- 
- <img width="1680" alt="Screen Shot 2025-02-17 at 4 04 52 PM" src="https://github.com/user-attachments/assets/4695ed82-2e52-4616-a2cb-90e6630fe429" />
-
-<img width="1680" alt="Screen Shot 2025-02-17 at 4 05 49 PM" src="https://github.com/user-attachments/assets/aa2b6479-29da-43cc-a4bc-23b9cea1d3c1" />
+i was able to log back in and id the computer 
+ <img width="1680" alt="Screen Shot 2025-02-17 at 4 05 49 PM" src="https://github.com/user-attachments/assets/d3ae5ac8-3945-41c6-a165-cb75cf76c1cc" />
 
 </p>
 <br />
