@@ -56,8 +56,8 @@ Group Policy Management: Enforces security policies and configurations on user a
 Single Sign-On (SSO): Allows users to access multiple resources with a single login.
 Hierarchy & Organization: Uses domains, organizational units (OUs), forests, and trees to structure resources.
 <p><img width="1680" alt="Screen Shot 2025-02-17 at 2 47 23 PM" src="https://github.com/user-attachments/assets/2d17f0c4-959a-4cd7-83f6-88cf21a34343" />
-
-<img width="1680" alt="Screen Shot 2025-02-17 at 3 16 28 PM" src="https://github.com/user-attachments/assets/81391d40-e43c-43c2-9798-f6fd978140a6" />
+add users to the Remote Desktop users group and configure rep permissions via group policy, enable Remote Desktop on the domain joined computers, open rdp port in windows defender firewall, test Remote Desktop connection 
+ <img width="1680" alt="Screen Shot 2025-02-17 at 3 16 28 PM" src="https://github.com/user-attachments/assets/81391d40-e43c-43c2-9798-f6fd978140a6" />
 <img width="1680" alt="Screen Shot 2025-02-17 at 3 46 14 PM" src="https://github.com/user-attachments/assets/e0b3ff2f-bba0-4c3c-8df4-4be12a441aa9" />
 
 <p><img width<img width="1680" alt="Screen Shot 2025-02-17 at 4 03 36 PM" src="https://github.com/user-attachments/assets/b12bb496-f24f-4b25-bab7-fd8d4dd8adea" />
