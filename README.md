@@ -48,7 +48,13 @@ Active Directory Users and Computers (ADUC) is a Microsoft Management Console (M
 as i added them to the Remote Desktop Users group via Active Directory Users and Computers (ADUC) or the Local Users and Groups tools i then procced to  update Group Policy (GPO) to allow RDP connections by enabling "Allow log on through Remote Desktop Services" in gpedit.msc under Security Settings. Ensure the firewall allows RDP (port 3389) and check that Network Level Authentication (NLA) is configured. For security, limit access to administrators and necessary users only.</p>
 <br />
 <img width="1680" alt="Screen Shot 2025-02-17 at 2 29 21 PM" src="https://github.com/user-attachments/assets/1c3866a2-f6e6-49bf-ad7e-19eb34107ea3" />
-
+Active Directory Domain Services (AD DS) is the core component of Microsoft Active Directory (AD) that manages user authentication, access control, and network resources in a Windows domain environment. It allows administrators to create and manage users, groups, computers, and policies within an organization.
+Key Functions of AD DS:
+User Authentication: Verifies user credentials for logging into domain-joined computers.
+Centralized Management: Controls access to files, printers, and applications across the network.
+Group Policy Management: Enforces security policies and configurations on user accounts and devices.
+Single Sign-On (SSO): Allows users to access multiple resources with a single login.
+Hierarchy & Organization: Uses domains, organizational units (OUs), forests, and trees to structure resources.
 <p><img width="1680" alt="Screen Shot 2025-02-17 at 2 47 23 PM" src="https://github.com/user-attachments/assets/2d17f0c4-959a-4cd7-83f6-88cf21a34343" />
 
 <img width="1680" alt="Screen Shot 2025-02-17 at 3 16 28 PM" src="https://github.com/user-attachments/assets/81391d40-e43c-43c2-9798-f6fd978140a6" />
