@@ -40,6 +40,8 @@ with in azure i created  aomain Controller (DC) a server in a Windows Active Dir
  within active directory tools i conntected client 1  to the domain controller and created users to use for viewing  tasks active directory  provides several tools for managing users, such as Active Directory Users and Computers (ADUC) for creating, modifying, and organizing user accounts, groups, and permissions. Group Policy Management (GPMC) helps enforce security policies and settings across users and devices. Active Directory Administrative Center (ADAC) offers a modern interface for managing accounts efficiently. PowerShell enables automation of user management tasks, like bulk account creation and modification 
 
 </p><img width="1680" alt="Screen Shot 2025-02-12 at 7 40 29 AM" src="https://github.com/user-attachments/assets/1052e7a2-c1b4-4397-8b46-4fd5868e4892" />
+Active Directory Users and Computers (ADUC) is a Microsoft Management Console (MMC) snap-in used to manage users, groups, computers, and organizational units (OUs) in a Windows Active Directory (AD) environment. It allows IT admins to create, modify, delete, and organize users and computers within a network.
+
 <img width="1680" alt="Screen Shot 2025-02-17 at 2 15 35 PM" src="https://github.com/user-attachments/assets/bb5ccfb6-c8ac-44a8-8571-d5c8fe037f84" />
 
 <p>
